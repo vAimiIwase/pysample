@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import requests
-
 class Project:
     def __init__(self):
         print("init")

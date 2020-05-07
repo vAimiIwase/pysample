@@ -8,12 +8,12 @@ except IOError:
 
 setup(
     name="pythonsample",
-    version="0.1.0",
+    version="0.1.1",
     description="A pip package",
     license="MIT",
     author="aimi,iwase",
-    packages=find_packages("pythonsample"),
-    install_requires=[],
+    packages=find_packages(),
+    install_requires=["requests"],
     long_description=long_description,
     classifiers=[
         "Programming Language :: Python",
